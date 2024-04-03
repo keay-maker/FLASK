@@ -5,7 +5,7 @@
 
 {% block content %}
    {% set num_todos = todos | length %}
-   {% if num_todos > 0 %}
+   {% if num_todos > 1 %}
        <p>you have {{num_todos}} left to do today</p>
        <ul>
            {{todo_macros.todo_ul(todos) }}
@@ -14,4 +14,3 @@
        <p>You have nothing to do today! Relax!</P>
    {% endif %}
 {% endblock content %}
-cr
