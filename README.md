@@ -1,1 +1,1 @@
-A Todo App created with Flask!
+A Todo App created with Flask!🚀
